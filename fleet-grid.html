@@ -70,7 +70,7 @@
 
 					<!--Menu Holder End-->
 					<div class="book_btn">
-						<a href="login.html">Log in <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+						<a href="">Log in <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
 					</div>
 				</div>
 				<!--Nav Holder End-->
@@ -104,15 +104,12 @@
 							</div> -->
 							<!--Fleet Result Count Column End-->
 							<!--Fleet Nav Column Start-->
-							<div class="col-md-4 col-sm-4">
-								<div class="car-tabs">
-									<ul class="nav nav-tabs">
-										<li class="active"><a href="#car-grid" data-toggle="tab"><i
-													class="fas fa-th"></i></a></li>
-										<li><a href="#car-list" data-toggle="tab"><i class="fas fa-list"></i></a></li>
-									</ul>
-								</div>
-							</div>
+									<!-- <ul class="nav nav-tabs">
+										 <li class="active"><a href="#car-grid" data-toggle="tab"><i
+													class="fas fa-th"></i></a></li> -->
+										<!-- <li><a href="#car-list" data-toggle="tab"><i class="fas fa-list"></i></a></li> -->
+									<!-- </ul> -->
+								
 							<!--Fleet Nav Column End-->
 						</div>
 					</div>
@@ -125,10 +122,12 @@
 									<div class="select-list">
 										<select name="car-category" class="selectpicker">
 											<option>Select a Category</option>
-											<option value="coupe">Coupe</option>
-											<option value="crossover">Crossover</option>
+											<option value="economy">Economy</option>
+											<option value="standard">Standard</option>
+											<option value="premium">Premium</option>
 											<option value="suv">SUV</option>
-											<option value="mpv">MPV</option>
+											<option value="minivan">Minivan</option>
+
 										</select>
 									</div>
 								</div>
@@ -141,18 +140,22 @@
 									<div class="select-list">
 										<select name="car-brand" class="selectpicker">
 											<option>Select by Brand</option>
-											<option value="porsche">Porsche</option>
-											<option value="ferrari">Ferrari</option>
-											<option value="audi">Audi</option>
-											<option value="ford">Ford</option>
-											<option value="honda">Honda</option>
+											<option value="porsche">BENZE </option>
+											<option value="ferrari">MACRO </option>
+											<option value="audi">MINI </option>
+											<option value="ford">XUV </option>
+											<option value="honda">BREZZA </option>
+											<option value="honda">SWIFT  </option>
+											<option value="honda">WAGON   </option>
+											<option value="honda">MAGIC   </option>
+
 										</select>
 									</div>
 								</div>
 							</div>
 							<!--Fleet Brand Column End-->
 							<!--Fleet Seats Column Start-->
-							<div class="col-md-3 col-sm-3">
+							<!-- <div class="col-md-3 col-sm-3">
 								<div class="car-filter">
 									<span>By Seats</span>
 									<div class="select-list">
@@ -164,10 +167,10 @@
 										</select>
 									</div>
 								</div>
-							</div>
+							</div> -->
 							<!--Fleet Seats Column End-->
 							<!--Fleet Price Filter Column Start-->
-							<div class="col-md-3 col-sm-3">
+							<!-- <div class="col-md-3 col-sm-3">
 								<div class="car-price-filter">
 									<form method="POST" class="price-filter">
 										<div class="text-left">
@@ -179,7 +182,7 @@
 										<div id="price-range"></div>
 									</form>
 								</div>
-							</div>
+							</div> -->
 							<!--Fleet Fleet Price Filter Column End-->
 						</div>
 					</div>
@@ -203,7 +206,7 @@
 											<!--Fleet Grid Text Start-->
 											<div class="fleet-info-box">
 												<div class="fleet-info">
-													<h3>2017 Chevrolet Pepe</h3>
+													<h3>Benzee 300</h3>
 													<span class="fas fa-star"></span>
 													<span class="fas fa-star"></span>
 													<span class="fas fa-star"></span>
@@ -211,7 +214,46 @@
 													<span class="fas fa-star"></span>
 
 													<ul class="fleet-meta">
-														<li><i class="fas fa-taxi"></i>Luxery</li>
+														<li><i class="fas fa-taxi"></i>Premium</li>
+														<!-- <li><i class="fas fa-user-circle"></i>2 Passengers</li>
+														<li><i class="fas fa-tachometer-alt"></i>5.6/100 MPG</li> -->
+													</ul>
+												</div>
+												<a href="booking-form.html" class="tj-btn">Book Now <i
+														class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+											</div>
+											<!--Fleet Grid Text End-->
+										</div>
+									</div>
+									<!--Fleet Grid Box End-->
+
+							
+
+									<!--Fleet Grid Box Start-->
+									<div class="col-md-6 col-sm-6">
+										<div class="fleet-grid-box">
+											<figure class="fleet-thumb">
+												<img src="images/car-fleet1.jpg" alt="">
+												<figcaption class="fleet-caption">
+													<div class="price-box">
+														<strong>Rs 400 <span>/ hour</span></strong>
+													</div>
+													<span class="rated">Top Rated</span>
+												</figcaption>
+											</figure>
+											<!--Fleet Grid Thumb End-->
+											<!--Fleet Grid Text Start-->
+											<div class="fleet-info-box">
+												<div class="fleet-info">
+													<h3>Benzee 300</h3>
+													<span class="fas fa-star"></span>
+													<span class="fas fa-star"></span>
+													<span class="fas fa-star"></span>
+													<span class="fas fa-star"></span>
+													<span class="fas fa-star"></span>
+
+													<ul class="fleet-meta">
+														<li><i class="fas fa-taxi"></i>Premium</li>
 														<!-- <li><i class="fas fa-user-circle"></i>2 Passengers</li>
 														<li><i class="fas fa-tachometer-alt"></i>5.6/100 MPG</li> -->
 													</ul>
@@ -227,48 +269,11 @@
 									<!--Fleet Grid Box Start-->
 									<div class="col-md-6 col-sm-6">
 										<div class="fleet-grid-box">
-											<!--Fleet Grid Thumb Start-->
 											<figure class="fleet-thumb">
-												<img src="images/car-fleet2.jpg" alt="">
+												<img src="images/car-fleet1.jpg" alt="">
 												<figcaption class="fleet-caption">
 													<div class="price-box">
-														<strong>$240 <span>/ day</span></strong>
-													</div>
-												</figcaption>
-											</figure>
-											<!--Fleet Grid Thumb End-->
-											<!--Fleet Grid Text Start-->
-											<div class="fleet-info-box">
-												<div class="fleet-info">
-													<h3>Nissan Vela 201</h3>
-													<span class="fas fa-star"></span>
-													<span class="fas fa-star"></span>
-													<span class="fas fa-star"></span>
-													<span class="fas fa-star"></span>
-													<span class="fas fa-star"></span>
-													<ul class="fleet-meta">
-														<li><i class="fas fa-taxi"></i>Luxery</li>
-														<li><i class="fas fa-user-circle"></i>5 Passengers</li>
-														<li><i class="fas fa-tachometer-alt"></i>5.6/100 MPG</li>
-													</ul>
-												</div>
-												<a href="booking-form.html" class="tj-btn">Book Now <i
-														class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
-											</div>
-											<!--Fleet Grid Text End-->
-										</div>
-									</div>
-									<!--Fleet Grid Box End-->
-
-									<!--Fleet Grid Box Start-->
-									<div class="col-md-6 col-sm-6">
-										<div class="fleet-grid-box">
-											<!--Fleet Grid Thumb Start-->
-											<figure class="fleet-thumb">
-												<img src="images/car-fleet3.jpg" alt="">
-												<figcaption class="fleet-caption">
-													<div class="price-box">
-														<strong>$185 <span>/ day</span></strong>
+														<strong>Rs 400 <span>/ hour</span></strong>
 													</div>
 													<span class="rated">Top Rated</span>
 												</figcaption>
@@ -277,7 +282,7 @@
 											<!--Fleet Grid Text Start-->
 											<div class="fleet-info-box">
 												<div class="fleet-info">
-													<h3>Mitshubishi Lander</h3>
+													<h3>Benzee 300</h3>
 													<span class="fas fa-star"></span>
 													<span class="fas fa-star"></span>
 													<span class="fas fa-star"></span>
@@ -285,9 +290,9 @@
 													<span class="fas fa-star"></span>
 
 													<ul class="fleet-meta">
-														<li><i class="fas fa-taxi"></i>Luxery</li>
-														<li><i class="fas fa-user-circle"></i>6 Passengers</li>
-														<li><i class="fas fa-tachometer-alt"></i>5.6/100 MPG</li>
+														<li><i class="fas fa-taxi"></i>Premium</li>
+														<!-- <li><i class="fas fa-user-circle"></i>2 Passengers</li>
+														<li><i class="fas fa-tachometer-alt"></i>5.6/100 MPG</li> -->
 													</ul>
 												</div>
 												<a href="booking-form.html" class="tj-btn">Book Now <i
@@ -301,123 +306,11 @@
 									<!--Fleet Grid Box Start-->
 									<div class="col-md-6 col-sm-6">
 										<div class="fleet-grid-box">
-											<!--Fleet Grid Thumb Start-->
 											<figure class="fleet-thumb">
-												<img src="images/car-fleet4.jpg" alt="">
+												<img src="images/car-fleet1.jpg" alt="">
 												<figcaption class="fleet-caption">
 													<div class="price-box">
-														<strong>$210 <span>/ day</span></strong>
-													</div>
-												</figcaption>
-											</figure>
-											<!--Fleet Grid Thumb End-->
-											<!--Fleet Grid Text Start-->
-											<div class="fleet-info-box">
-												<div class="fleet-info">
-													<h3>Mercedes SUV</h3>
-													<span class="fas fa-star"></span>
-													<span class="fas fa-star"></span>
-													<span class="fas fa-star"></span>
-													<span class="fas fa-star"></span>
-													<span class="fas fa-star"></span>
-
-													<ul class="fleet-meta">
-														<li><i class="fas fa-taxi"></i>Luxery</li>
-														<li><i class="fas fa-user-circle"></i>9 Passengers</li>
-														<li><i class="fas fa-tachometer-alt"></i>5.6/100 MPG</li>
-													</ul>
-												</div>
-												<a href="booking-form.html" class="tj-btn">Book Now <i
-														class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
-											</div>
-											<!--Fleet Grid Text End-->
-										</div>
-									</div>
-									<!--Fleet Grid Box End-->
-
-									<!--Fleet Grid Box Start-->
-									<div class="col-md-6 col-sm-6">
-										<div class="fleet-grid-box">
-											<!--Fleet Grid Thumb Start-->
-											<figure class="fleet-thumb">
-												<img src="images/car-fleet5.jpg" alt="">
-												<figcaption class="fleet-caption">
-													<div class="price-box">
-														<strong>$240 <span>/ day</span></strong>
-													</div>
-												</figcaption>
-											</figure>
-											<!--Fleet Grid Thumb End-->
-											<!--Fleet Grid Text Start-->
-											<div class="fleet-info-box">
-												<div class="fleet-info">
-													<h3>Lexus Sedan L100</h3>
-													<span class="fas fa-star"></span>
-													<span class="fas fa-star"></span>
-													<span class="fas fa-star"></span>
-													<span class="fas fa-star"></span>
-													<span class="fas fa-star"></span>
-
-													<ul class="fleet-meta">
-														<li><i class="fas fa-taxi"></i>Luxery</li>
-														<li><i class="fas fa-user-circle"></i>5 Passengers</li>
-														<li><i class="fas fa-tachometer-alt"></i>5.6/100 MPG</li>
-													</ul>
-												</div>
-												<a href="booking-form.html" class="tj-btn">Book Now <i
-														class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
-											</div>
-											<!--Fleet Grid Text End-->
-										</div>
-									</div>
-									<!--Fleet Grid Box End-->
-
-									<!--Fleet Grid Box Start-->
-									<div class="col-md-6 col-sm-6">
-										<div class="fleet-grid-box">
-											<!--Fleet Grid Thumb Start-->
-											<figure class="fleet-thumb">
-												<img src="images/car-fleet6.jpg" alt="">
-												<figcaption class="fleet-caption">
-													<div class="price-box">
-														<strong>$190 <span>/ day</span></strong>
-													</div>
-												</figcaption>
-											</figure>
-											<!--Fleet Grid Thumb End-->
-											<!--Fleet Grid Text Start-->
-											<div class="fleet-info-box">
-												<div class="fleet-info">
-													<h3>SUV Zeby</h3>
-													<span class="fas fa-star"></span>
-													<span class="fas fa-star"></span>
-													<span class="fas fa-star"></span>
-													<span class="fas fa-star"></span>
-													<span class="fas fa-star"></span>
-
-													<ul class="fleet-meta">
-														<li><i class="fas fa-taxi"></i>Luxery</li>
-														<li><i class="fas fa-user-circle"></i>8 Passengers</li>
-														<li><i class="fas fa-tachometer-alt"></i>5.6/100 MPG</li>
-													</ul>
-												</div>
-												<a href="booking-form.html" class="tj-btn">Book Now <i
-														class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
-											</div>
-											<!--Fleet Grid Text End-->
-										</div>
-									</div>
-									<!--Fleet Grid Box End-->
-
-									<!--Fleet Grid Box Start-->
-									<div class="col-md-6 col-sm-6">
-										<div class="fleet-grid-box">
-											<!--Fleet Grid Thumb Start-->
-											<figure class="fleet-thumb">
-												<img src="images/car-fleet7.jpg" alt="">
-												<figcaption class="fleet-caption">
-													<div class="price-box">
-														<strong>$190 <span>/ day</span></strong>
+														<strong>Rs 400 <span>/ hour</span></strong>
 													</div>
 													<span class="rated">Top Rated</span>
 												</figcaption>
@@ -426,7 +319,7 @@
 											<!--Fleet Grid Text Start-->
 											<div class="fleet-info-box">
 												<div class="fleet-info">
-													<h3>Renault Sedan</h3>
+													<h3>Benzee 300</h3>
 													<span class="fas fa-star"></span>
 													<span class="fas fa-star"></span>
 													<span class="fas fa-star"></span>
@@ -434,9 +327,9 @@
 													<span class="fas fa-star"></span>
 
 													<ul class="fleet-meta">
-														<li><i class="fas fa-taxi"></i>Luxery</li>
-														<li><i class="fas fa-user-circle"></i>5 Passengers</li>
-														<li><i class="fas fa-tachometer-alt"></i>5.6/100 MPG</li>
+														<li><i class="fas fa-taxi"></i>Premium</li>
+														<!-- <li><i class="fas fa-user-circle"></i>2 Passengers</li>
+														<li><i class="fas fa-tachometer-alt"></i>5.6/100 MPG</li> -->
 													</ul>
 												</div>
 												<a href="booking-form.html" class="tj-btn">Book Now <i
@@ -447,15 +340,15 @@
 									</div>
 									<!--Fleet Grid Box End-->
 
+
 									<!--Fleet Grid Box Start-->
 									<div class="col-md-6 col-sm-6">
 										<div class="fleet-grid-box">
-											<!--Fleet Grid Thumb Start-->
 											<figure class="fleet-thumb">
-												<img src="images/car-fleet8.jpg" alt="">
+												<img src="images/car-fleet1.jpg" alt="">
 												<figcaption class="fleet-caption">
 													<div class="price-box">
-														<strong>$190 <span>/ day</span></strong>
+														<strong>Rs 400 <span>/ hour</span></strong>
 													</div>
 													<span class="rated">Top Rated</span>
 												</figcaption>
@@ -464,7 +357,7 @@
 											<!--Fleet Grid Text Start-->
 											<div class="fleet-info-box">
 												<div class="fleet-info">
-													<h3>BMW Sedan</h3>
+													<h3>Benzee 300</h3>
 													<span class="fas fa-star"></span>
 													<span class="fas fa-star"></span>
 													<span class="fas fa-star"></span>
@@ -472,9 +365,9 @@
 													<span class="fas fa-star"></span>
 
 													<ul class="fleet-meta">
-														<li><i class="fas fa-taxi"></i>Luxery</li>
-														<li><i class="fas fa-user-circle"></i>6 Passengers</li>
-														<li><i class="fas fa-tachometer-alt"></i>5.6/100 MPG</li>
+														<li><i class="fas fa-taxi"></i>Premium</li>
+														<!-- <li><i class="fas fa-user-circle"></i>2 Passengers</li>
+														<li><i class="fas fa-tachometer-alt"></i>5.6/100 MPG</li> -->
 													</ul>
 												</div>
 												<a href="booking-form.html" class="tj-btn">Book Now <i
